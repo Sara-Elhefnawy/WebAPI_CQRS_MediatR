@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Gym.API/Gym.API.csproj" />
+  <Project Path="Gym.Application/Gym.Application.csproj" />
+  <Project Path="Gym.Domain/Gym.Domain.csproj" />
+  <Project Path="Gym.Infrastructure/Gym.Infrastructure.csproj" />
+</Solution>
