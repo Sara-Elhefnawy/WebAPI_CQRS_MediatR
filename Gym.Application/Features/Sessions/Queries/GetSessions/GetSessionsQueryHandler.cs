@@ -1,5 +1,4 @@
-﻿using Gym.Application.DTOs;
-using Gym.Application.UOW;
+﻿using Gym.Application.UOW;
 using Gym.Domain.Common;
 using MediatR;
 

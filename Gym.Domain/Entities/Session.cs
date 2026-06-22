@@ -13,10 +13,8 @@ public class Session
     public ICollection<Booking> Bookings { get; private set; } = [];
 
 
-    // Private constructor for EF Core
     private Session() { }
 
-    // Factory method — the only way to create a valid Session
     public static Session Create(
         string categoryName,
         string trainerName,
@@ -68,7 +66,6 @@ public class Session
         EndDate = endDate;
     }
 
-    // Computed — no storage needed
     public int AvailableSlots => Capacity - Bookings.Count(b => !b.IsDeleted);
 
     public string Status

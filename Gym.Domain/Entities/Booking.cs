@@ -9,7 +9,6 @@ public class Booking
     public bool IsAttended { get; private set; }
     public bool IsDeleted { get; private set; }
 
-    // EF Core navigation
     public Session Session { get; private set; } = default!;
 
     private Booking() { }
